@@ -1,7 +1,8 @@
 # the-shortest-ember-book
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The web app version of what will eventually become a small print resource
+for meetups, workshops, etc. The goal is to quickly and concisely
+communicate what Ember is, how it works, and steps to get started.
 
 ## Prerequisites
 
