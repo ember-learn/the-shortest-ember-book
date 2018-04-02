@@ -1,0 +1,64 @@
+.application-container {
+    padding: 30px 5%;
+}
+
+body {
+    font-family: "Architects Daughter", sans-serif;
+    background: #e2e1e0;
+
+
+}
+
+.page {
+    background-color: white;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 40px;
+    max-width: 400px;
+    padding-top: 40px;
+}
+
+.cover.page {
+    font-size: 35px;
+    text-align: center;
+
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 2;
+        padding-top: 30px;
+
+        .description {
+            font-size: 20px;
+            text-align: left;
+            grid-column-start: 1;
+    
+        }
+        .cover-tomster {
+            font-size: 14px;
+            grid-column-start: 2;
+            width: 150px;
+            img {
+                width: 100%;
+                filter: drop-shadow(3px 3px 3px #444);
+                transform: rotate(-15deg);
+            }
+        }
+    }
+
+    .cover-logo img {
+        width: 70%;
+    }
+    
+    .subtitle {
+        &.lower {
+            margin-top: -10px;
+        }
+        &.upper {
+            margin-bottom: -5px;
+        }
+    }
+}
+
+
+
