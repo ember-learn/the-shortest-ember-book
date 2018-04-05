@@ -3,8 +3,12 @@
 }
 
 body {
-    font-family: "Architects Daughter", sans-serif;
+    font-family: sans-serif;
     background: #e2e1e0;
+}
+
+p, li {
+    line-height: 1.3em;
 }
 
 .subtitle {
@@ -18,11 +22,16 @@ body {
     padding: 40px;
     max-width: 400px;
     padding-top: 40px;
+
+    .subtitle.upper {
+        font-family: "Architects Daughter", sans-serif;
+    }
 }
 
 .cover.page {
     text-align: center;
-    
+    font-family: "Architects Daughter", sans-serif;
+
     .grid {
         display: grid;
         grid-template-columns: 2;
