@@ -8,6 +8,7 @@ communicate what Ember is, how it works, and steps to get started.
 
 You will need the following things properly installed on your computer.
 
+* [yarn](https://yarnpkg.com/)
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
@@ -17,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd the-shortest-ember-book`
-* `npm install`
+* `yarn install`
 
 ## Running / Development
 
