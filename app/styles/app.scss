@@ -92,6 +92,7 @@ p, li {
         grid-template-columns: 2;
         .left {
             grid-column-start: 1;
+            align-self: center;
         }
         .right {
             padding-top: 20px;
@@ -100,13 +101,34 @@ p, li {
         }
         img {
             width: 100%;
-            transform: rotate(-25deg);
         }
     }
+
+    &.data {
+      .grid {
+        grid-template-columns: 60% 40%;
+      }
+      .right, .left {
+        padding-top: 0;
+      }
+      li {
+        font-size: 18px;
+      }
+    }
+}
+
+.img-battery {
+  transform: rotate(-25deg);
 }
 
 .img-full-width {
   width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.img-half-width {
+  width: 50%;
   margin: 0 auto;
   display: block;
 }
