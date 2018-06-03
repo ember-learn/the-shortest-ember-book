@@ -17,7 +17,7 @@ Anyone is welcome to print the book(s)! Meetup organizers, speakers, and confere
 If you want to make modifications to the book,
 please open an issue/pull request, which needs to be merged before printing and distributing the modified version. 
 
-The Tomster has [some restrictions](https://www.emberjs.com/tomster/faq/) on use outside of formal Ember.js projects. All other graphic assets were created by Braden Lawrence, and are intended for use only in the mini books.
+The Tomster has [some restrictions](https://www.emberjs.com/tomster/faq/) on use outside of formal Ember.js projects. All other graphic assets were created by [Braden Lawrence](http://www.bradenlawrence.com/portfolio), and are intended for use only in the mini books.
 
 ## Prerequisites to run the app
 
