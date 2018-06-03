@@ -9,6 +9,9 @@ communicate what Ember is, how it works, and steps to get started.
 
 Anyone is welcome to print the book(s)! Meetup organizers, speakers, and conference table hosts are especially encouraged to print and distribute copies. You can download printable assets [here](https://github.com/ember-learn/the-shortest-ember-book/tree/master/printable-materials). Follow these [folding instructions](https://github.com/ember-learn/the-shortest-ember-book/issues/7) to assemble.
 
+![Ember mini book](https://user-images.githubusercontent.com/16627268/40524890-218de0b2-5fab-11e8-841c-34f127f684a0.jpg "Ember mini book")
+
+
 ## Modifications
 
 If you want to make modifications to the book,
