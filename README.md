@@ -1,10 +1,25 @@
 # the-shortest-ember-book
 
-The web app version of what will eventually become a small print resource
-for meetups, workshops, etc. The goal is to quickly and concisely
+This repository contains both printable materials
+and a web app version of the Shortest Ember Book.
+The goal is to quickly and concisely
 communicate what Ember is, how it works, and steps to get started.
 
-## Prerequisites
+## Printing
+
+Anyone is welcome to print the book(s)! Meetup organizers, speakers, and conference table hosts are especially encouraged to print and distribute copies. You can download printable assets [here](https://github.com/ember-learn/the-shortest-ember-book/tree/master/printable-materials). Follow these [folding instructions](https://github.com/ember-learn/the-shortest-ember-book/issues/7) to assemble.
+
+![Ember mini book](https://user-images.githubusercontent.com/16627268/40524890-218de0b2-5fab-11e8-841c-34f127f684a0.jpg "Ember mini book")
+
+
+## Modifications
+
+If you want to make modifications to the book,
+please open an issue/pull request, which needs to be merged before printing and distributing the modified version. 
+
+The Tomster has [some restrictions](https://www.emberjs.com/tomster/faq/) on use outside of formal Ember.js projects. All other graphic assets were created by [Braden Lawrence](http://www.bradenlawrence.com/portfolio), and are intended for use only in the mini books.
+
+## Prerequisites to run the app
 
 You will need the following things properly installed on your computer.
 
