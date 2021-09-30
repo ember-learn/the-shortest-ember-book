@@ -1,0 +1,33 @@
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    env:
+      PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
+    steps:
+      - name: Check out a copy of the repo
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install dependencies
+        run: yarn install
+      - name: Percy
+        # You may pin to the exact commit or the version.
+        # uses: percy/exec-action@20e02fc241611bb7842e20e94076217c1d7663fd
+        uses: percy/exec-action@v0.3.1
+        with:
+          command: ember test
